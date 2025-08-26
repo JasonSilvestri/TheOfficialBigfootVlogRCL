@@ -1,0 +1,23 @@
+{
+  "pipeline": [
+    "gemini",
+    "flow"
+  ],
+  "config": {
+    "duration": "4s",
+    "resolution": "3840x2160",
+    "fps": 60,
+    "aspect_ratio": "16:9"
+  },
+  "scene": {
+    "subject": "Medium-close of Jasper-Prime; slight head turn; breathing visible if cool.",
+    "setting": "Same forest clearing; compress background with mild telephoto feel."
+  },
+  "camera": {
+    "framing": "medium-close",
+    "movement": "static with micro sway"
+  },
+  "lighting": "Warm backlight; brow ridge casts defined shadow",
+  "audio": "Forest bed; faint breath",
+  "notes": "Keep eyes sharp; avoid over-sharpening fur highlights"
+}

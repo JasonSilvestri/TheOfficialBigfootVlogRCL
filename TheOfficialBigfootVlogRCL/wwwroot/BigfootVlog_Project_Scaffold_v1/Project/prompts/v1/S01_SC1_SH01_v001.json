@@ -1,0 +1,23 @@
+{
+  "pipeline": [
+    "gemini",
+    "flow"
+  ],
+  "config": {
+    "duration": "4s",
+    "resolution": "3840x2160",
+    "fps": 60,
+    "aspect_ratio": "16:9"
+  },
+  "scene": {
+    "subject": "Jasper-Prime enters frame left to center; plants fist on hip. Barrel-chested, espresso-brown matte fur with silver-back sheen.",
+    "setting": "Forest clearing at golden hour; tall New England pines; dappled sunbeams on mossy floor."
+  },
+  "camera": {
+    "framing": "wide-medium",
+    "movement": "dolly back 2m; slight handheld sway"
+  },
+  "lighting": "Backlit rim; warm highlights; soft shadow under brow ridge",
+  "audio": "Forest ambience; subtle footfall",
+  "notes": "Maintain naturalistic look; minimal bloom; keep exposure for rim light"
+}

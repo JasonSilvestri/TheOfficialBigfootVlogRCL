@@ -1,0 +1,23 @@
+{
+  "pipeline": [
+    "gemini",
+    "flow"
+  ],
+  "config": {
+    "duration": "3s",
+    "resolution": "3840x2160",
+    "fps": 60,
+    "aspect_ratio": "16:9"
+  },
+  "scene": {
+    "subject": "Silhouette of Jasper-Prime passing in soft bokeh background.",
+    "setting": "Streamside trees; shallow depth; foreground footprints remain sharp."
+  },
+  "camera": {
+    "framing": "rack focus background to foreground",
+    "movement": "static tripod"
+  },
+  "lighting": "Backlit haze; cool/neutral balance",
+  "audio": "Stream + rustle; subtle branch snap",
+  "notes": "Hold focus discipline; smooth rack timing"
+}

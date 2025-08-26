@@ -1,0 +1,23 @@
+{
+  "pipeline": [
+    "gemini",
+    "flow"
+  ],
+  "config": {
+    "duration": "2s",
+    "resolution": "3840x2160",
+    "fps": 60,
+    "aspect_ratio": "16:9"
+  },
+  "scene": {
+    "subject": "Macro insert: foot compresses moss; dust motes in sunbeam.",
+    "setting": "Mossy forest floor; shallow depth of field."
+  },
+  "camera": {
+    "framing": "macro/insert",
+    "movement": "gentle forward drift; minimal parallax"
+  },
+  "lighting": "Hard sunbeam streak with soft spill; visible particulate",
+  "audio": "Moss crunch; micro debris shift",
+  "notes": "Optional 120fps for slow-mo; watch for noise in shadows"
+}

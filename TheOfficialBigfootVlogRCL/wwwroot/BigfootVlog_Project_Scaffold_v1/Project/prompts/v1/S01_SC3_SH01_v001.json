@@ -1,0 +1,23 @@
+{
+  "pipeline": [
+    "gemini",
+    "flow"
+  ],
+  "config": {
+    "duration": "3s",
+    "resolution": "3840x2160",
+    "fps": 60,
+    "aspect_ratio": "16:9"
+  },
+  "scene": {
+    "subject": "Close-up of fresh footprints beside a stream.",
+    "setting": "Stream edge; slick stones; soft flowing water in bokeh background."
+  },
+  "camera": {
+    "framing": "close-up",
+    "movement": "slow lateral glide"
+  },
+  "lighting": "Cooler ambient with specular highlights on wet rock",
+  "audio": "Stream trickle; distant forest bed",
+  "notes": "Emphasize texture; ensure micro-contrast in moss and mud"
+}

@@ -1,0 +1,212 @@
+{
+  "characters": [
+    {
+      "id": "CHAR_JASPER",
+      "name": "Jasper-Prime",
+      "speciesRole": "Bigfoot silver-back leader & storyteller",
+      "heightBuild": "8 ft 6 in; barrel-chested torso; immense traps/delts; long arms to mid-thigh; relaxed shoulders; slight forward head tilt for direct eyeline",
+      "fur": {
+        "base": {
+          "name": "base",
+          "hex": "#2C2418",
+          "context": "env-avg"
+        },
+        "aliases": [
+          {
+            "name": "legacy",
+            "hex": "#3D2B1F"
+          },
+          {
+            "name": "isolated",
+            "hex": "#271F16"
+          }
+        ],
+        "length": "4\u20135 in",
+        "sheen": "matte with natural tip-catch",
+        "highlights": [
+          {
+            "name": "shoulder/crown highlight",
+            "hex": "#42341C",
+            "context": "highlight"
+          }
+        ]
+      },
+      "headFace": "Prominent brow ridge; deep-set eyes; broad flat nose; leathery dark muzzle; square jaw with subtle left-cheek scar; slightly worn teeth with warm/yellow enamel",
+      "expressionPosture": "Calm, curious gaze; mouth slightly open when listening; plants fist on hip when asserting; measured, confident movements",
+      "lightingContext": "Late-afternoon golden hour; warm rim/key from camera-right/back-right; dappled shafts; warm cast; soft forest-floor bounce",
+      "environmentPhysics": "Mature New England forest (oak/pine); moss compresses shallowly; ferns mid-shin; light breeze causes upper-fur micro-sway",
+      "handsProps": "Right hand often gripping selfie-pole; palm/knuckle tone \u2248 #352E25",
+      "lowerBody": "Powerful thighs; gait stable on uneven surfaces; minimal knee valgus",
+      "feetDetail": {
+        "description": "Feet appear more human than ape; broad midfoot; low arch; visible heel strike imprint"
+      },
+      "personalityVibe": "Stoic leader with playful swagger; warm, jovial undercurrent",
+      "voice": {
+        "tone": "deep resonant baritone",
+        "pacing": "measured",
+        "sampleLine": "Oh, yeah, baby!"
+      },
+      "signatureDialogue": "\u201cOh, yeah, baby! Heading to Avon, Massachusetts to see my boy Jason Silvestri \u2014 a-k-a Jay, a-k-a Hooter!\u201d",
+      "cinematographyCues": "Eye-level; standard to mild-wide; moderate separation; vlog micro-shake <3%",
+      "images": [
+        {
+          "id": "IMG_JASP_CUT",
+          "type": "cutout",
+          "path": "assets/characters/jasper-prime/cutout.png",
+          "notes": "Transparent background pose"
+        },
+        {
+          "id": "IMG_JASP_ENV",
+          "type": "in_environment",
+          "path": "assets/characters/jasper-prime/in-forest.png",
+          "notes": "In natural forest lighting"
+        }
+      ],
+      "workflowState": "Completed"
+    }
+  ],
+  "environments": [
+    {
+      "id": "ENV_FOREST_CLEARING",
+      "name": "Forest clearing",
+      "timeOfDay": "Late afternoon golden hour",
+      "weather": "Clear",
+      "biome": "New England pines",
+      "physicsNotes": "Moss compression, gentle breeze micro-sway",
+      "colorNotes": "Warm rim; dappled shafts; soft bounce"
+    }
+  ],
+  "storyboard": {
+    "id": "SB_V2_1",
+    "title": "Storyboard v2",
+    "version": 2,
+    "scenes": [
+      {
+        "id": "SC_1",
+        "index": 1,
+        "title": "Hook (Golden Hour, Forest Clearing)",
+        "environmentId": "ENV_FOREST_CLEARING",
+        "clip": true,
+        "characters": [
+          "CHAR_JASPER"
+        ],
+        "actions": "Jasper-Prime strides into frame from left, scanning the canopy with stoic authority.",
+        "camera": "Wide shot; static with slight handheld sway; rule-of-thirds",
+        "audio": "Forest ambience: distant birds and soft breeze",
+        "effects": "Warm rim light on right shoulder; dappled sunlight shafts",
+        "overlays": [
+          {
+            "id": "LT_INTRO",
+            "text": "The Official Bigfoot Vlog",
+            "position": "bottom_left",
+            "safeAreaPct": 0.9
+          }
+        ],
+        "tickers": [
+          {
+            "id": "TK_PROMO",
+            "text": "New episode every Friday \u2022 Subscribe",
+            "speed": 1.0,
+            "loop": true
+          }
+        ]
+      },
+      {
+        "id": "SC_3",
+        "index": 3,
+        "title": "Escalation (Footprints by the Stream)",
+        "environmentId": "ENV_FOREST_CLEARING",
+        "clip": true,
+        "characters": [
+          "CHAR_JASPER"
+        ],
+        "actions": "Close-ups of fresh prints; Jasper-Prime silhouette glides in soft bokeh background.",
+        "camera": "Close-up macros for prints; background silhouette with smooth rack.",
+        "audio": "Stream trickle; forest bed; subtle branch snap",
+        "effects": "Cooler ambient with specular highlights on wet rock",
+        "overlays": [],
+        "tickers": []
+      }
+    ],
+    "shots": [
+      {
+        "id": "SHOT_S01_01",
+        "sceneId": "SC_1",
+        "index": 1,
+        "setting": "Forest clearing, late afternoon golden hour",
+        "characterIds": [
+          "CHAR_JASPER"
+        ],
+        "subjectDescription": "Jasper-Prime \u2013 8 ft 6 in silver-back Bigfoot; barrel-chested; espresso-brown matte fur with auburn highlights; pronounced brow ridge; square jaw with subtle scar; feet human-like with broad midfoot",
+        "action": "Strides into frame from left, holding selfie-pole at waist height, scans canopy with calm authority",
+        "camera": {
+          "angle": "wide shot",
+          "movement": "static with slight handheld sway",
+          "framing": "rule of thirds",
+          "lens": "standard"
+        },
+        "audio": {
+          "ambient": "forest ambience with distant birds and gentle breeze",
+          "dialogue": "[warm baritone] Jasper-Prime says: \"Oh, yeah, baby... Heading to Avon, Massachusetts to see my boy Jason Silvestri \u2014 Jay a-k-a Hooter!\"",
+          "music": {
+            "id": "MCUE_WARM_INTRO",
+            "name": "Warm Intro Bed",
+            "bpm": 82,
+            "intensity": "low",
+            "inAt": 0,
+            "outAt": 8
+          },
+          "sfx": []
+        },
+        "effects": [
+          "warm rim lighting on right shoulder",
+          "dappled sunlight shafts"
+        ],
+        "no_subtitles": true,
+        "promptVersion": 1
+      },
+      {
+        "id": "SHOT_S03_01",
+        "sceneId": "SC_3",
+        "index": 1,
+        "setting": "Stream edge; slick stones; soft flowing water in bokeh background",
+        "characterIds": [
+          "CHAR_JASPER"
+        ],
+        "subjectDescription": "Close-up of fresh footprints; moss compresses; water glints; background silhouette hints Jasper-Prime presence",
+        "action": "Camera glides laterally across prints; focus racks to silhouette then back to prints",
+        "camera": {
+          "angle": "close-up",
+          "movement": "slow lateral glide with controlled rack focus",
+          "framing": "macro emphasis",
+          "lens": "mild telephoto macro"
+        },
+        "audio": {
+          "ambient": "stream trickle; soft breeze; distant forest bed",
+          "dialogue": "",
+          "music": {
+            "id": "MCUE_TENSION",
+            "name": "Subtle Tension Pad",
+            "bpm": 72,
+            "intensity": "low",
+            "inAt": 0,
+            "outAt": 8
+          },
+          "sfx": [
+            {
+              "id": "SFX_BRANCH",
+              "name": "small branch snap",
+              "inAt": 5.0
+            }
+          ]
+        },
+        "effects": [
+          "cooler ambient balance",
+          "specular highlights on wet rock"
+        ],
+        "no_subtitles": true,
+        "promptVersion": 1
+      }
+    ]
+  }
+}

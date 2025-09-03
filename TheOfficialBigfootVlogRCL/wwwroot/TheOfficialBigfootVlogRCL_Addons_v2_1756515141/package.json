@@ -1,0 +1,21 @@
+{
+  "name": "theofficialbigfootvlogrcl-addons",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "bf:build": "tsc -p .",
+    "bf:gen:md": "node ./dist/scripts/generate-bigfoot-md.js",
+    "bf:gen:json": "node ./dist/scripts/generate-bigfoot-prompts.js",
+    "bf:gen:chars": "node ./dist/scripts/generate-character-sheets.js",
+    "bf:eol:docs": "powershell -ExecutionPolicy Bypass -File ./tools/normalize-eol.ps1 -Root ./wwwroot/docs/bigfoot",
+    "bf:import": "node ./dist/scripts/import-bigfoot-from-docs.js",
+    "bf:sync:roundtrip": "npm run bf:import && npm run bf:build && npm run bf:gen:chars && npm run bf:gen:md && npm run bf:gen:json && npm run bf:eol:docs",
+    "bf:roundtrip:win": "npm run bf:build && npm run bf:gen:chars && npm run bf:gen:md && npm run bf:gen:json && npm run bf:eol:docs"
+  },
+  "dependencies": {
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
